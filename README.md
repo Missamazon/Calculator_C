@@ -1,17 +1,15 @@
 # Calculator_C
 My first project in C: a calculator
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
-
 
 int main()
 {
     int x, y;
     int signe;
-
 
 /*Définir les termes des opérations*/
     printf("DEFINIR LE PREMIER NOMBRE : ");
@@ -42,13 +40,11 @@ int main()
         return 0;
     }
 
-
-
     printf("DEFINIR LE SECOND NOMBRE : ");
     scanf ("%d",&y);
     printf("%d \n",y);
 
-/*Faire le calcul selon opérateur*/
+/* Faire le calcul selon opérateur */
 
 switch (signe)
 {
@@ -72,6 +68,5 @@ switch (signe)
     break;
 default : printf ("Opérateur inconnu");
 }
-
 return 0;
 }
